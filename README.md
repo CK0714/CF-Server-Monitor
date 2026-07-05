@@ -404,7 +404,7 @@ curl -sL https://你的项目.你的子域.workers.dev/install-openwrt.sh | sh -
 Windows 系统（PowerShell 版）
 
 ```powershell
-.\cf-server-monitor.ps1 uninstall
+powershell -ExecutionPolicy Bypass -File .\cf-server-monitor.ps1 uninstall
 ```
 
 Windows 系统（Python 版）
